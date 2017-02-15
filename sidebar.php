@@ -25,6 +25,6 @@
     <?php wp_list_pages('include=532&title_li='); ?>
   </li>
   </ul>
-	
+
 
 </div>
