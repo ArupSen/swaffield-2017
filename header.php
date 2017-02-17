@@ -51,44 +51,6 @@ padding: 0; margin: 0;
 </head>
 
 <body <?php body_class($class); ?>>
-<script language=JavaScript>
-<!--
-
-//Disable right mouse click Script
-//By Maximus (maximus@nsimail.com) w/ mods by DynamicDrive
-//For full source code, visit http://www.dynamicdrive.com
-
-var message="Right-click Disabled!";
-
-///////////////////////////////////
-function clickIE4(){
-if (event.button==2){
-alert(message);
-return false;
-}
-}
-
-function clickNS4(e){
-if (document.layers||document.getElementById&&!document.all){
-if (e.which==2||e.which==3){
-alert(message);
-return false;
-}
-}
-}
-
-if (document.layers){
-document.captureEvents(Event.MOUSEDOWN);
-document.onmousedown=clickNS4;
-}
-else if (document.all&&!document.getElementById){
-document.onmousedown=clickIE4;
-}
-
-document.oncontextmenu=new Function("alert(message);return false")
-
-// -->
-</script>
 <!-- wrap starts here -->
 <div id="wrap">
 
@@ -107,7 +69,13 @@ document.oncontextmenu=new Function("alert(message);return false")
 
 
 
-<?php include (TEMPLATEPATH. '/main_menu.php'); ?>
+<?php //include (TEMPLATEPATH. '/main_menu.php'); ?>
+<?php
+if (is_active_sidebar( 'custom-header-widget' )) : ?>
+<div id="header-widget-area" class="chw-widget-area widget-area" role="comlementary">
+<?php dynamic_sidebar( 'custom-header-widget' ); ?>
+</div><!--end #header-widget-area -->
+<?php endif; ?>
 </div><!-- end #header -->
 
 <!-- content-wrap starts here -->
