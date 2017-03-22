@@ -59,7 +59,11 @@ padding: 0; margin: 0;
 
 <h1 id="logo"><a href="<?php bloginfo('url'); ?>" title="go back to the home page">Swaffield Primary School</a></h1>
 <h2 id="slogan"><?php bloginfo('description'); ?></h2>
-<p class="address">St Ann’s Hill Wandsworth SW18 2SA<br />020 8874 2825</p>
+<p class="address">St Ann’s Hill <br>Wandsworth <br>SW18 2SA</p>
+<p class="contact-details">Mrs C Lilley, Headteacher <br>
+Telephone: 020 8874 2825 <br>
+Email: swaffield@swaffield.wandsworth.sch.uk
+</p>
 
 <form method="get" class="searchform" id="searchform" action="<?php echo $_SERVER['PHP_SELF']; ?>">
 <p><input type="text" value="<?php echo wp_specialchars($s, 1); ?>" name="s" id="s"  class="textbox" />

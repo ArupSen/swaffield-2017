@@ -170,7 +170,7 @@ form.searchform input.button {
 ************************/
 #wrap {
   background: #FFF;
-  width: 86%;
+  width: 100%;
   margin: 0 auto;
   text-align: left;
 }
@@ -193,12 +193,12 @@ form.searchform input.button {
   font: bold 44px 'Trebuchet MS',sans-serif;
   letter-spacing: -2px;
   text-transform:capitalize;
-  top: 0px; left: 5px;
+  top: 0px;
+  left: 25%;
   background-image:url(images/badge_plain.gif);
   background-repeat:no-repeat;
   background-position:0 0px;
   height:100px;
- 
 }
 #logo a {
     color: #8E7D51;
@@ -216,7 +216,7 @@ form.searchform input.button {
 #header h2#slogan {
   position: absolute;
   top:47px;
-  left:71px;
+  left:28.3%;
   color: #8E7D51;
   text-indent: 0px;
   font: bold 16px Tahoma, , sans-serif;
@@ -227,18 +227,23 @@ form.searchform input.button {
   text-align:justify;
 }
 #header p.address {
+  right:29%;
+}
+#header p.contact-details {
+  right: 16%;
+}
+#header p.address, #header p.contact-details {
   color: #8E7D51;
-  font: normal 11px/14px Tahoma;
+  font: normal 12px/16px Tahoma;
   position: absolute;
   top: 12px;
-  right:29%;
 }
 #header form.searchform {
   position: absolute;
   top: 23px; right: -12px;
 }
 /* newsBox div that appears next to rotating photos */
-#newsBox {position:absolute;top:10px;left:513px;}
+#newsBox {position:absolute;top:50px;left:513px;}
 #newsBox li {list-style:none;margin:10px 0;width:195px;}
 #newsBox a {color:#FFF; background:#804D55;border-radius:4px;padding:5px;margin:5px 0;font-size:12px;display:block;box-shadow:0 2px 3px #666;font-weight:bold;}
 #newsBox a:hover {background-color:#DAC5C8;color:#804D55;}
@@ -255,8 +260,10 @@ form.searchform input.button {
 }
 /* pages that are full width */
 .page-id-29 #main, .page-id-21 #main, .page-id-742 #main, .page-id-695 #main {
+  /*
   width:787px;
   margin-left: 16px;
+  */
 }
 #main ul li {color:#000;}
 
@@ -590,12 +597,13 @@ ul#main_menu li ul li a.external:hover {background:url(images/external_icon.jpeg
 /*div.slideshow_box div:nth-of-type(2),*/ div.slideshow_box div.righthand {width:360px; position:absolute; top:10px; left: 427px;}
 .slideshow_box {position:relative;padding-bottom:22px; border-bottom: 1px solid #ccc; padding-top:10px;}
 .slideshow_box div {width: 360px;}
+div#fadeshow1 {top: 39px;}
 #fadeshow1 img{position:relative;top:-3px;left:-3px;}
 #fadeshow1 img:hover{position:relative;top:-5px;left:-5px;}
 /* Mega menu styles */
 .chw-widget {
     position: relative;
-    top: 340px;
+    top: 100px;
 }
 
 /*
