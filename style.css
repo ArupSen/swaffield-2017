@@ -249,6 +249,11 @@ form.searchform input.button {
 #newsBox a:hover {background-color:#DAC5C8;color:#804D55;}
 #newsBox h2 {margin-left:45px;}
 
+/* meta slider styles */
+.metaslider.metaslider-flex.metaslider-11339.ml-slider {
+    margin: 0 auto;
+    top: 39px;
+}
 /* main */
 #main {
   float: left;

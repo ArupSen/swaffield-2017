@@ -85,10 +85,13 @@ if (is_active_sidebar( 'custom-header-widget' )) : ?>
 <!-- content-wrap starts here -->
 <div id="content-wrap">
 
-<div style="height:240px;position:relative;"><!-- wraps flashfader and stops page jumping up and down -->
+<div style="height:300px;position:relative;"><!-- wraps flashfader and stops page jumping up and down -->
 <?php if (function_exists (ssg_show)) ssg_show(); ?>
+<?php 
+    echo do_shortcode("[metaslider id=11339]"); 
+?>
 <?php //include (ABSPATH.'wp-content/flashfader/flashfaderhtml.txt'); ?>
-<?php include (TEMPLATEPATH. '/newsBox.php'); ?>
+<?php //include (TEMPLATEPATH. '/newsBox.php'); ?>
 </div>
 <!-- <div id="sidebar" >
   <h1>Main Menu</h1>
