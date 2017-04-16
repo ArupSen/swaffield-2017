@@ -17,7 +17,9 @@
 jQuery(function() {
 // scrolling text for the main heading
 var $scrollHeading = jQuery('.home #main').find('h1').eq(1);
+var $welcomeText = jQuery('.home h3').next();
 $scrollHeading.wrap('<marquee direction="left" behaviour="scroll"></marquee>');
+$welcomeText.wrap('<div class="head-welcome">');
 });
 </script>
 
