@@ -59,7 +59,7 @@ padding: 0; margin: 0;
 <div id="header">
 
 
-<h1 id="logo"><a href="<?php bloginfo('url'); ?>" title="go back to the home page">Swaffield Primary School</a></h1>
+<h1 id="logo"><a href="<?php bloginfo('url'); ?>" title="go back to the home page"><?php bloginfo('name'); ?></a></h1>
 <h2 id="slogan"><?php bloginfo('description'); ?></h2>
 <p class="address">St Ann’s Hill <br>Wandsworth <br>SW18 2SA</p>
 <p class="contact-details">Mrs C Lilley, Headteacher <br>

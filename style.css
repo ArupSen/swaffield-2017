@@ -255,7 +255,7 @@ form.searchform input.button {
 /* meta slider styles */
 .metaslider.metaslider-flex.metaslider-11339.ml-slider {
     margin: 0 auto;
-    top: 39px;
+    top: 87px;
 }
 /* main */
 #main {
@@ -594,6 +594,16 @@ padding-bottom: 18px;
     font-size: 18px;
     line-height: 1.5em;
     font-style: italic;
+}
+
+/* marquee on the home page */
+marquee {
+  position: absolute;
+  top: 143px;
+  border: 1px solid red;
+  padding: 5px 5px 10px 5px;
+  width: 80%;
+  border-radius: 6px;
 }
 
 /*survey box on the home page*/
