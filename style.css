@@ -598,14 +598,21 @@ padding-bottom: 18px;
 
 /* marquee on the home page */
 marquee {
-  position: absolute;
-  top: 143px;
-  border: 1px solid red;
-  padding: 5px 5px 10px 5px;
-  width: 80%;
-  border-radius: 6px;
+    position: absolute;
+    top: 143px;
+    border: 1px solid #7A1424;
+    padding: 5px 5px 10px 5px;
+    width: 80%;
+    border-radius: 6px;
 }
-
+marquee::before {
+    content: "NOTICE";
+    position: absolute;
+    top: 1px;
+    letter-spacing: 1px;
+    font-weight: bold;
+    color: darkgrey;
+}
 /*survey box on the home page*/
 #survey {border:1px solid #E3B5BC;margin-bottom:10px;}
 #survey img {border:none;float:left;margin:2px 3px;}
