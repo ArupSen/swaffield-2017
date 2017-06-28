@@ -419,23 +419,29 @@ padding-left: 10px;
 #school_menu, #parents_menu, #learning_menu, #curriculum_menu, #news_menu {
   position:absolute;
     font-family: Tahoma, Verdana;
-    font-size: 10px;
+    font-size: 12px;
     font-weight: normal;
     margin: 0;
     padding: 0;
     list-style: none;
     top: 570px;
   }
+ul#learning_menu::before {
+    content: "In this Section:";
+    margin: 15px;
+    letter-spacing: 1px;
+    line-height: 2em;
+}
 /*  no news side menu on the gallery page */
 .page-id-21 #news_menu {display:none;}
 
 #school_menu a, #parents_menu a, #learning_menu a, #curriculum_menu a, #news_menu a {
     display: block;
     text-decoration: none;
-    color: #FFF;
+    color: #7A1424;
     border-top: 1px solid #ffffff;
     padding: 3px 15px 3px 15px;
-    background: #7A1424;
+    background: #FFF;
     margin-left: 1px;
     white-space: normal;
     width: 90%;
